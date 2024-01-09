@@ -3,8 +3,8 @@ import './App.css'
 import { Outlet } from 'react-router-dom'
 import { useDispatch } from "react-redux";
 import { login, logout } from "./Store/authSlice";
-import Header from "./components/Header/Header"
-import Footer from "./components/footer/Footer"
+import Header from "./Components/Header/Header.jsx"
+import Footer from "./components/footer/Footer.jsx"
 import authService from './appwrite/auth'
 //import Logo from "./Components/Logo"
 
